@@ -25,6 +25,7 @@ const server = app.listen(PORT, () => {
   console.log(`Server runs on http://localhost:${PORT}`);
 });
 
+// This ONLY for Server Hosting
 // COPY PASTE THIS TO AVOID LEAKING DATA WHEN DATABASE ERROR
 // Handle unhandled promise rejections (e.g., database connection errors)
 process.on("unhandledRejection", (err) => {
